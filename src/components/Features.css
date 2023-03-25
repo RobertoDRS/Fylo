@@ -1,0 +1,223 @@
+section#features {
+   background-color:  hsl(218, 28%, 13%);
+   padding: 10px 0 30px 0;
+   position: relative;
+}
+
+section#features::before {
+   content: "";
+   background-image: url('../assets/bg-curvy-desktop.svg');
+   background-repeat: no-repeat;
+   background-size:contain;
+   width: 100%;
+   height: 95%;
+   position: absolute;
+   top: -450px;
+   left: 0;
+   right: 0;
+}
+
+section#features .container-features{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items:first baseline;
+   gap: 4rem;
+   width: 100%;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+/** Desktop **/
+@media only screen and (min-width: 1646px)  and (max-width: 1920px){
+
+   section#features::before {
+      display: none;
+   }
+
+   section#features {
+      padding: 120px 0 30px 0;
+   }
+}
+
+@media only screen and (min-width: 765px)  and (max-width: 1646px){
+
+   section#features {
+      padding: 80px 0 30px 0;
+   }
+}
+
+
+@media only screen and (min-width: 1510px)  and (max-width: 1646px){
+
+   section#features::before {
+      top: -470px;
+   }
+
+}
+
+
+@media only screen and (min-width: 1410px)  and (max-width: 1510px){
+
+   section#features::before {
+      top: -440px;
+   }
+
+}
+
+@media only screen and (min-width: 1314px)  and (max-width: 1410px){
+
+   section#features::before {
+      top: -410px;
+   }
+
+}
+
+@media only screen and (min-width: 1250px)  and (max-width: 1314px){
+
+   section#features::before {
+      top: -380px;
+   }
+
+}
+
+@media only screen and (min-width: 1154px)  and (max-width: 1250px){
+   section#features::before {
+      top: -360px;
+   }
+
+}
+
+@media only screen and (min-width: 1058px)  and (max-width: 1154px){
+
+   section#features::before {
+      top: -330px;
+   }
+}
+
+@media only screen and (min-width: 997px)  and (max-width: 1058px){
+
+   section#features::before {
+      top: -305px;
+   }
+}
+
+@media only screen and (min-width: 897px)  and (max-width: 997px){
+
+   section#features::before {
+      top: -280px;
+   }
+}
+
+@media only screen and (min-width: 883px)  and (max-width: 897px){
+
+   section#features::before {
+      top: -260px;
+   }
+}
+
+@media only screen and (min-width: 765px)  and (max-width: 883px){
+
+   section#features::before {
+      top: -240px;
+   }
+}
+
+@media only screen and (min-width: 765px)  and (max-width: 800px){
+   section#features .container-features{
+      flex-direction: column;
+      width: 90%;
+      gap: 7rem;
+   }
+}
+
+
+
+
+
+/** Mobile **/
+@media only screen and  (max-width: 765px){
+   section#features::before {
+      background-image: url('../assets/bg-curvy-mobile.svg');
+      top: -280px;
+   }
+
+   section#features .container-features{
+      flex-direction: column;
+      width: 90%;
+      gap: 7rem;
+   }
+}
+
+@media only screen and  (max-width: 744px){
+   section#features::before {
+      top: -269px;
+   }
+}
+
+@media only screen and  (max-width: 714px){
+   section#features::before {
+      top: -257px;
+   }
+}
+
+@media only screen and  (max-width: 682px){
+   section#features::before {
+      top: -245px;
+   }
+}
+
+@media only screen and  (max-width: 650px){
+   section#features::before {
+      top: -234px;
+   }
+}
+
+@media only screen and  (max-width: 621px){
+   section#features::before {
+      top: -222px;
+   }
+}
+
+@media only screen and  (max-width: 591px){
+   section#features::before {
+      top: -211px;
+   }
+}
+
+@media only screen and  (max-width: 561px){
+   section#features::before {
+      top: -200px;
+   }
+}
+
+@media only screen and  (max-width: 531px){
+   section#features::before {
+      top: -189px;
+   }
+}
+
+@media only screen and  (max-width: 531px){
+   section#features::before {
+      top: -179px;
+   }
+}
+
+@media only screen and  (max-width: 473px){
+   section#features::before {
+      top: -167px;
+   }
+}
+
+@media only screen and  (max-width: 444px){
+   section#features::before {
+      top: -156px;
+   }
+}
+
+
+@media only screen and  (max-width: 414px){
+   section#features::before {
+      top: -144px;
+   }
+}

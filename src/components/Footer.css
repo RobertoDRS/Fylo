@@ -1,3 +1,228 @@
 footer {
-    background-color: blanchedalmond;
+    background-color: hsl(216, 53%, 9%);
+    color: hsl(0, 0%, 100%);
+    position: relative;
 }
+
+div.signIn-main{
+    width: 100%;
+    position: absolute;
+    top: -160px;
+    display: flex;
+    justify-content: center;
+}
+
+div.signIn{
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+    width: 60%;
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    box-shadow: 5px 3px 10px 0px rgb(27, 26, 26);
+}
+
+div.signIn h3 {
+    font-size: 1.8rem;
+}
+
+div.signIn input{
+    width: 380px;
+    padding: 0.9rem 1rem;
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+}
+
+
+div.footer-main-div{
+    display: flex;
+    gap: 3rem;
+    align-items:second baseline;
+    padding: 15% 5% 10% 5%;
+}
+
+.footer-sec-div-1{
+    width: 40%;
+}
+
+.footer-sec-div-2{
+    width: 15%;
+}
+
+.footer-sec-div-2 img{
+    width: 22px
+}
+
+.footer-sec-div-main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-sec-div-2-sec{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-sec-div-3, .footer-sec-div-4{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+} 
+
+.footer-sec-div-3 a, .footer-sec-div-4 a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-sec-div-3 a:hover, .footer-sec-div-4 a:hover{
+    font-weight: bold;
+}
+
+.footer-sec-div-5{
+    width: 15%;
+    display: flex;
+    gap: 1rem ;
+}
+
+.footer-sec-div-5 img{
+    width: 40px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer-sec-div-5 img:hover {
+ background-color: hsl(176, 68%, 64%);
+ border-color: hsl(176, 68%, 64%);
+}
+
+/** Desktop **/
+@media only screen and (min-width: 765px) and  (max-width: 1300px){
+    div.signIn form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    div.signIn input {
+        width: 400px;
+    }
+
+    div.footer-main-div{
+        display: flex;
+        gap: 3rem;
+        align-items:second baseline;
+        padding: 30% 5% 10% 5%;
+    }
+}
+
+@media only screen and (min-width: 765px) and  (max-width: 1269px){
+    .footer-sec-div-1{
+        width: 30%;
+    }
+
+    .footer-sec-div-2, .footer-sec-div-5{
+        width: 20%;
+    }
+
+    .footer-sec-div-3, .footer-sec-div-4{
+        width: 15%;
+    }
+
+}
+
+@media only screen and (min-width: 765px) and  (max-width: 952px){
+    div.footer-main-div{
+        flex-direction: column;
+        align-items:center;
+        padding: 40% 5% 10% 5%;
+    }
+
+    .footer-sec-div-1, .footer-sec-div-2, .footer-sec-div-3, .footer-sec-div-4, .footer-sec-div-5{
+        width: 90%;
+    }
+   
+}
+
+
+/** Mobile **/
+
+@media only screen and  (max-width: 765px){
+    div.signIn-main{
+        top: -200px;
+    }
+
+    div.signIn{
+        width: 90%;
+        text-align: center;
+    }
+
+    div.signIn form{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    div.signIn input{
+        width: 500px;
+        padding: 1.2rem 1rem;
+        border-radius: 40px;
+        margin: 0;
+    }
+
+    div.footer-main-div{
+        flex-direction: column;
+        align-items:center;
+        padding: 50% 5% 10% 5%;
+    }
+
+    .footer-sec-div-1, .footer-sec-div-2, .footer-sec-div-3, .footer-sec-div-4, .footer-sec-div-5{
+        width: 90%;
+    }
+
+    .footer-sec-div-1 img{
+       margin-bottom: 10px;
+    }
+
+    .footer-sec-div-2 img{
+        width:22px;
+    }
+
+    .footer-sec-div-5{
+        justify-content: center;   
+     }
+ 
+
+}
+
+
+
+@media only screen and  (max-width: 561px){
+    div.signIn input{
+        width: 400px;
+    }
+ }
+
+
+@media only screen and  (max-width: 531px){
+    div.footer-main-div{
+        padding: 70% 5% 10% 5%;
+    }
+ }
+
+ @media only screen and  (max-width: 473px){
+    div.signIn input{
+        width: 350px;
+    }
+ }
+
+

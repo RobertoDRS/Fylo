@@ -1,3 +1,55 @@
 header #menu {
-    background-color:blanchedalmond;
+    background-color:hsl(217, 28%, 15%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4% 5%;
 }
+
+#menu div {
+    display: flex;
+    gap: 2rem;
+}
+
+#menu div > a {
+    color: rgb(217, 215, 215);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#menu div > a:hover {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/** Mobile **/
+@media only screen and  (max-width: 765px){
+
+    header img{
+        width: 100px;
+    }
+
+    #menu div{
+        gap: 1rem
+    }
+
+}
+
+@media only screen and  (max-width: 444px){
+    #menu div {
+        gap: .6rem;
+    }
+ }
+
+ @media only screen and  (max-width: 414px){
+    #menu div {
+        gap: .5rem;
+    }
+
+    #menu img {
+        width: 90px;
+    }
+ }

@@ -4,7 +4,7 @@ import Logo from '../assets/logo.svg'
 export default () => {
     return (
         <header>
-            <div id="menu">
+            <div id="menu" className='max-width'>
                 <img src={Logo} alt="Logo" />
                 <div>
                     <a href="#">Características</a>

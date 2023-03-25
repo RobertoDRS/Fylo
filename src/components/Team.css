@@ -1,0 +1,129 @@
+section#team{
+    background-color:  hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 10% 5% 25% 5%;
+}
+
+.team-part-1{
+    display: flex;
+    height: 500px;
+    gap: 4rem;
+    margin-bottom: 10%;
+}
+
+.team-image {
+    background-image: url('../assets/illustration-stay-productive.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 80%;
+}
+
+.team-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    z-index: 1;
+}
+
+.team-text h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.team-text a {
+    color: hsl(176, 68%, 64%);
+    font-size: 1rem;
+}
+
+.team-text a:hover{
+    color: hsl(0, 0%, 100%);
+}
+
+.team-text img:hover{
+    fill: hsl(0, 0%, 100%);
+}
+
+.team-part-2{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    position: relative;
+}
+
+.team-part-2::before{
+    content: '';
+    background-image: url('../assets/bg-quotes.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 15px;
+    top: -30px;
+}
+
+@media only screen and (min-width: 765px ) and  (max-width: 1310px){
+    .team-part-1{
+        flex-direction: column;
+        align-items: center;
+        height: 770px;
+    }
+
+    .team-image{
+        width: 90%;
+        height: 900px;
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width: 765px ) and  (max-width: 964px){
+    .team-part-2{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+
+/** Mobile **/
+@media only screen and  (max-width: 765px){
+
+    section#team{
+        flex-direction: column;
+        width: 100%;
+        padding: 10% 5% 60% 5%;
+    }
+
+    .team-part-1{
+        flex-direction: column;
+        align-items: center;
+        height: 770px;
+    }
+
+    .team-image{
+        width: 90%;
+        height: 900px;
+        background-position: center;
+    }
+
+    .team-text{
+        width: 90%;
+    }
+
+    .team-part-2{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and  (max-width: 531px){
+    section#team{
+        padding: 10% 5% 70% 5%;
+    }
+ }

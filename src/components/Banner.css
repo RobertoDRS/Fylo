@@ -1,0 +1,56 @@
+section#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 13rem;
+}
+
+section#banner .image{
+    background-image: url('../assets/illustration-intro.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+section#banner .image, section#banner .texts {
+    width: 100%;
+    max-width: 600px;
+}
+
+section#banner .texts{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    z-index: 1;
+}
+
+section#banner .texts > h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/** Desktop **/
+
+@media only screen and (min-width: 1688px)  and (max-width: 1920px){
+    section#banner {
+        padding-bottom: 10rem;
+    }
+ }
+
+/** Mobile **/
+
+@media only screen and  (max-width: 765px){
+    
+    section#banner .image{
+        width: 90%;
+    }
+
+    section#banner .texts{
+        width: 90%;
+    }
+}

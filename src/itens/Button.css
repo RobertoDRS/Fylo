@@ -1,0 +1,26 @@
+button#btn{
+    width: 250px;
+    padding: 0.9rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border: none;
+    color: hsl(0, 0%, 100%);
+    z-index: 1;
+}
+
+button#btn:hover {
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+    cursor: pointer;
+}
+
+/** Mobile **/
+@media only screen and  (max-width: 765px){
+
+    button#btn{
+        width: 300px;
+        padding: 1.2rem 1rem;
+        border-radius: 40px
+    }
+
+}

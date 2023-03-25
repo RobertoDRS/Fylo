@@ -2,8 +2,11 @@ import './Button.css'
 
 export default ({title}) => {
     return(
-        <button>
+        <button id="btn">
+            <p>
             {title}
+            </p>
+                
         </button>
     )
 }

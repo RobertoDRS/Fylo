@@ -10,9 +10,9 @@ import CardTeam from '../itens/CardTeam'
 export default () => {
     return (
         <section id="team">
-            <div>
-                <div></div>
-                <div>
+            <div className='team-part-1'>
+                <div className='team-image'></div>
+                <div className='team-text'>
                     <h2>Mantenha-se produtivo, onde quer que esteja</h2>
                     <p>
                         Nunca deixe que a localização seja um problema ao acessar aos seus arquivos. A Fylo tem-no
@@ -23,12 +23,12 @@ export default () => {
                         colaboração. Não são necessários anexos de correio eletrônico.
                     </p>
 
-                    <a href="#">Veja como a Fylo funciona <img src={Arrow} alt="seta" /></a>
+                    <a href="#">Veja como a Fylo funciona <img className='icon-arrow' src={Arrow} alt="seta" /></a>
                 </div>
             </div>
             
-            <div>
-                <CardTeam name="Satish Patel" image={Profile1}/>
+            <div className='team-part-2'>
+                <CardTeam  name="Satish Patel" image={Profile1}/>
                 <CardTeam name="Bruce Mckenzie" image={Profile2}/>
                 <CardTeam name="Iva Boyd" image={Profile3}/>
             </div>
