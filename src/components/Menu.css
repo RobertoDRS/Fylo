@@ -26,6 +26,7 @@ header #menu {
 
 
 /** Mobile **/
+
 @media only screen and  (max-width: 765px){
 
     header img{
@@ -39,12 +40,15 @@ header #menu {
 }
 
 @media only screen and  (max-width: 444px){
+
     #menu div {
         gap: .6rem;
     }
+
  }
 
  @media only screen and  (max-width: 414px){
+
     #menu div {
         gap: .5rem;
     }
@@ -52,4 +56,5 @@ header #menu {
     #menu img {
         width: 90px;
     }
+    
  }

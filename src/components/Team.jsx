@@ -1,17 +1,21 @@
 import './Team.css'
 
+import CardTeam from '../itens/CardTeam'
+
 import Arrow from '../assets/icon-arrow.svg'
 import Profile1 from '../assets/profile-1.jpg'
 import Profile2 from '../assets/profile-2.jpg'
 import Profile3 from '../assets/profile-3.jpg'
 
-import CardTeam from '../itens/CardTeam'
 
 export default () => {
     return (
         <section id="team">
+
             <div className='team-part-1'>
+
                 <div className='team-image'></div>
+
                 <div className='team-text'>
                     <h2>Mantenha-se produtivo, onde quer que esteja</h2>
                     <p>
@@ -25,6 +29,7 @@ export default () => {
 
                     <a href="#">Veja como a Fylo funciona <img className='icon-arrow' src={Arrow} alt="seta" /></a>
                 </div>
+                
             </div>
             
             <div className='team-part-2'>
@@ -32,6 +37,7 @@ export default () => {
                 <CardTeam name="Bruce Mckenzie" image={Profile2}/>
                 <CardTeam name="Iva Boyd" image={Profile3}/>
             </div>
+
         </section>
     )
 }

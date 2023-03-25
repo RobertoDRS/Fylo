@@ -1,4 +1,7 @@
 import './Footer.css'
+
+import Button from '../itens/Button'
+
 import Logo from '../assets/logo.svg'
 import Location from '../assets/icon-location.svg'
 import Phone from '../assets/icon-phone.svg'
@@ -7,12 +10,13 @@ import Facebook from '../assets/facebook.png'
 import Twitter from '../assets/twitter.png'
 import Instagram from '../assets/instagram.png'
 
-import Button from '../itens/Button'
 
 export default () => {
     return (
         <footer>
-            <div className='signIn-main'>
+
+            <div id= "signIn"className='signIn-main'>
+                
                 <div className='signIn'>
                     <h3>Obtenha acesso antecipado hoje</h3>
                     <p>
@@ -68,7 +72,9 @@ export default () => {
                     <a href="#"><img src={Twitter} alt="twitter" /></a>
                     <a href="#"><img src={Instagram} alt="instagram" /></a>
                 </div>
+
             </div>
+
         </footer>
     )
 }

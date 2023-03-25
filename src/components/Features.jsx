@@ -10,12 +10,13 @@ import AnyFile from '../assets/icon-any-file.svg'
 export default () => {
     return (
         <section id="features">
+
             <div className='container-features'>
 
                 <FeaturesCard title="Acesse aos seus arquivos, em qualquer lugar"
-            text="A capacidade de utilizar um smartphone, tablet ou computador para acessar à sua conta
-            significa que os seus arquivos o seguem para todo o lado." alt="acesso"
-            image={Acess}/>
+                text="A capacidade de utilizar um smartphone, tablet ou computador para acessar à sua conta
+                significa que os seus arquivos o seguem para todo o lado." alt="acesso"
+                image={Acess}/>
 
                 <FeaturesCard title="Segurança em que pode confiar"
                 text="Autenticação em 2 fatores e encriptação controlada pelo utilizador são apenas duas

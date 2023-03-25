@@ -66,6 +66,7 @@ section#team{
 }
 
 @media only screen and (min-width: 765px ) and  (max-width: 1310px){
+
     .team-part-1{
         flex-direction: column;
         align-items: center;
@@ -77,19 +78,23 @@ section#team{
         height: 900px;
         background-position: center;
     }
+
 }
 
 @media only screen and (min-width: 765px ) and  (max-width: 964px){
+
     .team-part-2{
         flex-direction: column;
         align-items: center;
         margin-top: 100px;
         margin-bottom: 100px;
     }
+
 }
 
 
 /** Mobile **/
+
 @media only screen and  (max-width: 765px){
 
     section#team{
@@ -119,11 +124,14 @@ section#team{
         align-items: center;
         margin-top: 100px;
     }
+
 }
 
 
 @media only screen and  (max-width: 531px){
+
     section#team{
         padding: 10% 5% 70% 5%;
     }
+    
  }

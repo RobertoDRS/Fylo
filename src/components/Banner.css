@@ -37,9 +37,11 @@ section#banner .texts > h2 {
 /** Desktop **/
 
 @media only screen and (min-width: 1688px)  and (max-width: 1920px){
+
     section#banner {
         padding-bottom: 10rem;
     }
+
  }
 
 /** Mobile **/
@@ -53,4 +55,5 @@ section#banner .texts > h2 {
     section#banner .texts{
         width: 90%;
     }
+    
 }

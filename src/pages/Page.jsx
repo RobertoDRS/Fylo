@@ -8,11 +8,13 @@ import Footer from '../components/Footer'
 export default () => {
     return (
         <div>
+
             <Menu/>
             <Banner/>
             <Features/>
             <Team/>
             <Footer/>
+            
         </div>
     )
 }

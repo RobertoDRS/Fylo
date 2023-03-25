@@ -27,15 +27,21 @@ div.card-team {
 }
 
 /** Desktop **/
+
 @media only screen and (min-width: 765px ) and  (max-width: 964px){
+
     div.card-team{
         width: 90%
     }
+
 }
 
 /** Mobile **/
+
 @media only screen and  (max-width: 765px){
+
     div.card-team{
         width: 90%
     }
+    
 }
