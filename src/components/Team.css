@@ -1,4 +1,4 @@
-section#team{
+section#team {
     background-color:  hsl(218, 28%, 13%);
     color: hsl(0, 0%, 100%);
     display: flex;
@@ -6,7 +6,7 @@ section#team{
     padding: 10% 5% 25% 5%;
 }
 
-.team-part-1{
+.team-part-1 {
     display: flex;
     height: 500px;
     gap: 4rem;
@@ -20,7 +20,7 @@ section#team{
     width: 80%;
 }
 
-.team-text{
+.team-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,22 +38,22 @@ section#team{
     font-size: 1rem;
 }
 
-.team-text a:hover{
+.team-text a:hover {
     color: hsl(0, 0%, 100%);
 }
 
-.team-text img:hover{
+.team-text img:hover {
     fill: hsl(0, 0%, 100%);
 }
 
-.team-part-2{
+.team-part-2 {
     display: flex;
     justify-content: center;
     gap: 3rem;
     position: relative;
 }
 
-.team-part-2::before{
+.team-part-2::before {
     content: '';
     background-image: url('../assets/bg-quotes.png');
     background-repeat: no-repeat;
@@ -65,8 +65,7 @@ section#team{
     top: -30px;
 }
 
-@media only screen and (min-width: 765px ) and  (max-width: 1310px){
-
+@media only screen and (min-width: 765px ) and (max-width: 1310px) {
     .team-part-1{
         flex-direction: column;
         align-items: center;
@@ -78,25 +77,21 @@ section#team{
         height: 900px;
         background-position: center;
     }
-
 }
 
-@media only screen and (min-width: 765px ) and  (max-width: 964px){
-
+@media only screen and (min-width: 765px ) and (max-width: 964px) {
     .team-part-2{
         flex-direction: column;
         align-items: center;
         margin-top: 100px;
         margin-bottom: 100px;
     }
-
 }
 
 
 /** Mobile **/
 
-@media only screen and  (max-width: 765px){
-
+@media only screen and (max-width: 765px) {
     section#team{
         flex-direction: column;
         width: 100%;
@@ -124,14 +119,11 @@ section#team{
         align-items: center;
         margin-top: 100px;
     }
-
 }
 
 
-@media only screen and  (max-width: 531px){
-
+@media only screen and  (max-width: 531px) {
     section#team{
         padding: 10% 5% 70% 5%;
     }
-    
  }

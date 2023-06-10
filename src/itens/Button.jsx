@@ -3,9 +3,7 @@ import './Button.css'
 export default ({title}) => {
     return(
         <button id="btn">
-
-            <p> {title} </p>
-                
+            <p>{title}</p>    
         </button>
     )
 }

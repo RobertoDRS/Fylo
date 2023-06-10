@@ -6,42 +6,37 @@ div.card-team {
     width: calc((100%/3) - 3rem);
     padding: 2rem 2rem;
     z-index: 1;
-
     box-shadow: 8px 5px 2px 0px hsl(217, 28%, 15%);
 }
 
-.card-team-main-div{
+.card-team-main-div {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.card-team-main-div img{
+.card-team-main-div img {
     width: 15%;
     border-radius: 50%;
 }
 
-.card-team-sec-div{
+.card-team-sec-div {
     display: flex;
     flex-direction: column;
 }
 
 /** Desktop **/
 
-@media only screen and (min-width: 765px ) and  (max-width: 964px){
-
-    div.card-team{
+@media only screen and (min-width: 765px ) and  (max-width: 964px) {
+    div.card-team {
         width: 90%
     }
-
 }
 
 /** Mobile **/
 
-@media only screen and  (max-width: 765px){
-
-    div.card-team{
+@media only screen and  (max-width: 765px) {
+    div.card-team {
         width: 90%
     }
-    
 }

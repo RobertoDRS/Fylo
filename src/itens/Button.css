@@ -1,4 +1,4 @@
-button#btn{
+button#btn {
     width: 250px;
     padding: 0.9rem 1rem;
     border-radius: 20px;
@@ -16,12 +16,10 @@ button#btn:hover {
 
 /** Mobile **/
 
-@media only screen and  (max-width: 765px){
-
+@media only screen and (max-width: 765px) {
     button#btn{
         width: 300px;
         padding: 1.2rem 1rem;
         border-radius: 40px
     }
-
 }

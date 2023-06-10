@@ -28,7 +28,6 @@ header #menu {
 /** Mobile **/
 
 @media only screen and  (max-width: 765px){
-
     header img{
         width: 100px;
     }
@@ -36,19 +35,15 @@ header #menu {
     #menu div{
         gap: 1rem
     }
-
 }
 
 @media only screen and  (max-width: 444px){
-
     #menu div {
         gap: .6rem;
     }
-
  }
 
  @media only screen and  (max-width: 414px){
-
     #menu div {
         gap: .5rem;
     }
@@ -56,5 +51,24 @@ header #menu {
     #menu img {
         width: 90px;
     }
-    
+ }
+
+ @media only screen and  (max-width: 385px){
+    div#menu > img {
+        display: none;
+    }
+
+    header #menu{
+        justify-content: center;
+    }
+
+    #menu div {
+        gap: 2rem;
+    }
+ }
+
+ @media only screen and  (max-width: 330px){
+    #menu div {
+        gap: 1.7rem;
+    }
  }

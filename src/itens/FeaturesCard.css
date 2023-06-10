@@ -8,29 +8,22 @@
     text-align: center;
 }
 
-#featuresCard h3{
+#featuresCard h3 {
     font-size: 1.1rem;
 }
 
+
 /** Desktop **/
-
-
-@media only screen and (min-width: 765px)  and (max-width: 800px){
-
-    #featuresCard{
+@media only screen and (min-width: 765px) and (max-width: 800px) {
+    #featuresCard {
         width: 100%;
     }
-
  }
- 
  
 
 /** Mobile **/
-
-@media only screen and  (max-width: 765px){
-
-    #featuresCard{
+@media only screen and  (max-width: 765px) {
+    #featuresCard {
         width: 100%;
-    }
-    
+    } 
 }
