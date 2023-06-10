@@ -65,6 +65,16 @@ section#team {
     top: -30px;
 }
 
+@media only screen and (min-width: 2100px ) {
+    section#team{
+        align-items: center;
+    }
+
+    .team-part-1{
+        width: 80%;
+    }
+}
+
 @media only screen and (min-width: 765px ) and (max-width: 1310px) {
     .team-part-1{
         flex-direction: column;
